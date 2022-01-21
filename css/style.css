@@ -21,3 +21,104 @@ h5,
 h6 {
     margin: 0;
 }
+
+/* ======================
+menu part start
+========================= */
+.menu{
+    background: #FFFBF0;
+}
+.menu img{
+    width: 100%;
+}
+.menu .navbar-brand {
+  width:20%;
+}
+.menu li{
+    padding-left: 20px;
+}
+.menu a{
+    color:#3C3C3C;
+}
+.menu a:hover{
+    color:#FABE4C;
+}
+/* =====================
+penguin banner part stary
+======================== */
+#penguin{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background:#FFFBF0;
+}
+.penguin-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color:#FABE4C;
+}
+.penguin-text p{
+    line-height: 9px;
+
+}
+span{
+    display: inline-block;
+    color:#363958;
+}
+.button-div{
+    margin-top: 30px;
+}
+.button-link{
+    background: linear-gradient(#A4BC46,#85A019);
+    padding: 12px 24px;
+    border:none;
+}
+.button-link:hover{
+    border:none;
+}
+/* ======================
+women and men jaket
+===================== */
+#common-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title-heiding{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color:#363958;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.jaket-item{
+    width:370px;
+    background: #ffffff;
+    padding: 18px 18px 23px 18px;
+}
+.jaket-photo{
+    background: #F1F1F1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 334px;
+    height: 327px;
+  
+}
+.jaket-photo img{
+    width: 260px;
+    height: 293px;
+}
+.jaket-item h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color:#363958;
+    padding: 17px 0 10px 0;
+
+}
+.buy-text h2{
+    color:#FABE4C;
+    font-weight: 900;
+    font-size: 36px;
+}
+

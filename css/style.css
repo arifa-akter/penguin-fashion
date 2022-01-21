@@ -81,7 +81,7 @@ women and men jaket
 ===================== */
 #common-section{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .title-heiding{
     font-family: 'Bebas Neue', cursive;
@@ -92,7 +92,7 @@ women and men jaket
     padding-bottom: 30px;
 }
 .jaket-item{
-    width:370px;
+    width:345px;
     background: #ffffff;
     padding: 18px 18px 23px 18px;
 }
@@ -100,7 +100,7 @@ women and men jaket
     background: #F1F1F1;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 334px;
+    width: 310px;
     height: 327px;
   
 }

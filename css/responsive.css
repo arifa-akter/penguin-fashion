@@ -13,9 +13,11 @@
   @media(min-width:576)and( max-width:767.98){}
   /* =========== extra small ============= */
   @media (max-width:575.98){
-     .title-heiding {
-         text-align: center;
-       /* display: flex;
-       justify-content: center; */
-     }
+    .title-heiding {
+        text-align: center;
+    }
+    .jaket-photo {
+        width: 263px;
+        
+    }
   }

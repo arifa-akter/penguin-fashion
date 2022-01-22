@@ -2,22 +2,76 @@
  media query
  /* ====================== */
  /* extra extra large */
- @media(min-width:1400){}
+ @media(min-width:1400px){}
  /* ============== extra large ===============  */
-  @media(min-width:1200)and(max-width:1399.98){}
+  @media(min-width:1200px)and(max-width:1399.98px){}
   /* ============= large ==================== */
-  @media(min-width:992)and(max-width:1199.98){}
+  @media(min-width:992px)and(max-width:1199.98px){}
   /* ============= medium ==================== */
-  @media(min-width:768)and(max-width:991.98){}
+  @media(min-width:768px)and(max-width:991.98px){}
   /* ============= small =================== */
-  @media(min-width:576)and( max-width:767.98){}
+  @media(min-width:576px)and( max-width:767.98px){}
   /* =========== extra small ============= */
-  @media (max-width:575.98){
+  @media (max-width:575.98px){
+      /* ======= menu ber ========== */
+    .menu .navbar-brand {
+        width: 40%;
+    }
+    .menu li {
+      text-align:center;
+      padding-left:0;
+    }
+    .menu i{
+        color:#363958;
+    }
+    .menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+    /* ========= jaket part ========= */
     .title-heiding {
         text-align: center;
+    }
+    .jaket-item {
+        width: 297px;
     }
     .jaket-photo {
         width: 263px;
         
+    }
+    /* =========== shopping part ======== */
+    .facibility-item {
+        width: 295px;
+        flex-direction: column;
+        margin:30px;
+    }
+    .house-text{
+        text-align:center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+  
+    .house-text h2 {
+        padding: 0 0 7px 0;
+        font-size: 20px;
+    }
+    .house-text p {
+        font-size: 12px;
+        line-height: 20px;    
+    }
+    .house-div{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .shopping-row {
+        flex-direction: column-reverse;
+    }
+    .cloum-flex {
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+    .image img{
+        width: 70%;
     }
   }

@@ -108,7 +108,7 @@ women and men jaket
     width: 260px;
     height: 293px;
 }
-.jaket-item h2{
+.heading {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -120,5 +120,32 @@ women and men jaket
     color:#FABE4C;
     font-weight: 900;
     font-size: 36px;
+}
+/* ========================
+shopping part start
+========================= */
+#shopping{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.house-div img{
+  width:100px;
+  height:100px;
+}
+
+.house-text h2{
+    padding: 0 0 15px 0;
+}
+.house-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+
+}
+.facibility-item {
+    width:482px;
+    border: 1px solid #FFFBF0;
 }
 
